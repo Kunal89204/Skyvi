@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello world</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skyvi</title>
+    <script
+      src="https://kit.fontawesome.com/394111977c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-box">
+        <input type="text" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="img-box">
+        <img src="icons/heavy-rain.png" alt="weather" id="image" />
+      </div>
+      <div class="temp-box">
+        <p class="temp">22<sup>o</sup></p>
+      </div>
+      <div class="city-name-box"><p class="city-name">Delhi</p></div>
+      <div class="humidity-speed-box">
+        <div class="humidity-box">
+          <img src="icons/humidity.png" alt="" />
+          <span id="humidity">hai</span>
+          <p>wind speed</p>
+        </div>
+        <div class="wind-speed-box">
+          <img src="icons/wind.png" alt="" />
+          <span id="wind-speed">speed</span>
+          <p>Wind Speed</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

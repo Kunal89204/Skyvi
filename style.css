@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Mono:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.34s;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(35, 35, 35);
+}
+
+.container{
+    border: 0px solid;
+    padding: 15px;
+    background: linear-gradient(-210deg, rgb(19, 241, 152)40%, rgb(0, 157, 255));
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 1px rgb(255, 255, 255);
+}
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    width: 80%;
+    border-radius: 40px;
+    border: 0px solid;
+    font-size: large;
+}
+
+i{
+    margin:  0px;
+    border: 0px solid;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+.img-box{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.img-box img{
+    width: 150px;
+}
+
+.temp-box, .city-name-box{
+    text-align: center;
+    font-size: x-large;
+}
+
+.temp{
+    font-size: xxx-large;
+}
+
+.humidity-speed-box{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.humidity-speed-box img{
+    width: 40px;
+}
+
+.humidity-box, .wind-speed-box{
+    padding: 20px;
+}
