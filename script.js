@@ -13,11 +13,7 @@ search.addEventListener("click", function(){
 fetch(apiUrl)
 .then(respo => respo.json())
 .then((data) => {
-    city.textContent = "";
-  humidity.textContent = "";
-  speed.textContent = "";
-  temp.textContent = "";
-  input.textContent = "";
+
 
 
 
