@@ -12,7 +12,7 @@ search.addEventListener("click", function() {
     fetch(apiUrl)
       .then((response) => response.json())
       .then((data) => {
-        city.textContent = input.toUpperCase();
+        city.textContent = data.location.name;
         humidity.textContent = data.current.humidity;
         speed.textContent = data.current.wind_kph;
         temp.innerHTML = `${data.current.temp_c}<sup>o</sup>C`;
