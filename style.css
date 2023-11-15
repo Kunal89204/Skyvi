@@ -84,3 +84,7 @@ i{
 .humidity-box, .wind-speed-box{
     padding: 20px;
 }
+
+sup{
+    font-size: 25px;
+}

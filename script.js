@@ -12,10 +12,10 @@ search.addEventListener("click", function() {
     fetch(apiUrl)
       .then((response) => response.json())
       .then((data) => {
-        city.textContent = data.location.name;
+        city.textContent = input.toUpperCase();
         humidity.textContent = data.current.humidity;
         speed.textContent = data.current.wind_kph;
-        temp.textContent = data.current.temp_c;
+        temp.innerHTML = `${data.current.temp_c}<sup>o</sup>C`;
       })
       .catch((error) => {
         console.log("There was an error:", error);
