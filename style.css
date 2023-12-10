@@ -19,6 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(35, 35, 35);
+  position: relative;
 }
 
 .container{
@@ -87,4 +88,20 @@ i{
 
 sup{
     font-size: 25px;
+}
+
+.error, .empty-box{
+    position: absolute;
+    color: white;
+    top: 19%;
+    border: 1px solid rgb(77, 76, 76);
+    padding: 15px ;
+    font-size: 14px;
+    border-radius: 30px;
+    background: rgb(51, 51, 51);
+    opacity: 0;
+}
+
+.error:hover, .empty-box:hover{
+    cursor:default;
 }

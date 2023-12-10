@@ -11,13 +11,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="error">
+      Can't find location. Please try again
+    </div>
+    <div class="empty-box">
+    The search field can not be empty
+    </div>
     <div class="container">
       <div class="search-box">
         <input type="text" id="input" placeholder="Enter a city name"/>
         <i class="fa-solid fa-magnifying-glass" id="search"></i>
       </div>
       <div class="img-box">
-        <img src="icons/cloudy.png" alt="weather" id="image" />
+        <img src="icons/clear.png" alt="weather" id="image" />
       </div>
       <div class="temp-box">
         <p class="temp"></p>
